@@ -1,0 +1,6 @@
+docker run --name postgres-db -e POSTGRES_PASSWORD=password123 -p 5432:5432 -d postgres
+
+docker run --name pgadmin-container -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=amit@lingaro.com -e PGADMIN_DEFAULT_PASSWORD=pgpassword -d dpage/pgadmin4
+
+
+link :  https://medium.com/@marvinjungre/get-postgresql-and-pgadmin-4-up-and-running-with-docker-4a8d81048aea
